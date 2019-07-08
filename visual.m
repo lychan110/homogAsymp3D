@@ -29,7 +29,7 @@ c = sqrt(x.^2+y.^2+z.^2);
 s = surf(x,y,z,c);
 s.EdgeColor = 'none';
 s.FaceColor = 'interp';
-display(s)
+% display(s)
 end
 
 function [E] = modulus(CH)
