@@ -16,6 +16,7 @@ Homogenization code for 3D lattice structure. For more information you can visit
 * Improvements:
     1. Option added to assemble the stiffness matrix using either Young's modulus/Poisson's ratio or Lame's parameters.
     2. Option added to more easily switch between pcg or direct matrix solver.
+* Note: this code can be used for any voxel structure, not just lattice structures. To voxelize mesh structures in Matlab, I recommend [this code by Adam Aitkenhead](https://www.mathworks.com/matlabcentral/fileexchange/27390-mesh-voxelisation).
 
 `GenerateVoxel.m` is now `generateVoxelLattice.m`: generate the voxel model of lattice structures for `homogAsymp3D.m`.
 * Improvements:
