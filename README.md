@@ -63,7 +63,7 @@ if plotFlag
 end
 ```
 
-The result is:
+The result:
 
 ```
 --------------------------EFFECTIVE PROPERTIES--------------------------
